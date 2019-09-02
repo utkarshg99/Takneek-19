@@ -796,3 +796,18 @@ h1, h2, h3, h4, h5,
   width: 100%;
   height: 200px;
 }
+
+.sec1 {
+  background: url("https://wallpaperaccess.com/full/25486.png") no-repeat center;
+  background-size: cover;
+}
+
+.sec2 {
+  background: url("https://wallpapercave.com/wp/wp1851342.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.sec3 {
+  background: url("http://cdn.paperhi.com/1920x1080/20130314/breaking%20bad%20game%20of%20thrones%20crossovers%20bryan%20cranston%20walter%20white%20heisenberg%201920x1080%20wallpape_www.paperhi.com_45.jpg") no-repeat center fixed;
+  background-size: cover;
+}
