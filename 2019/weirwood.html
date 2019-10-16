@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Weirwood Tree</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script>
+            // const axios = require('axios');
+
+            function searchAnswer(){
+                axios.post('https://snt-code.herokuapp.com/old_gods',{sacrifice : document.getElementById('passw').value}).then((response) => {
+                    alert(response.data.blessing);
+                    document.getElementById("passw").value = '';
+                })
+            }
+        </script>
+    </head>
+    <body style="background-image: url(./tree_new.jpg); background-repeat: no-repeat; background-size: cover">
+        <center><h1 style='margin-top: 100px; color: antiquewhite'>Seek The Answer</h1>
+        <input type="password" id="passw">
+        <br>
+        <input type="submit" value="Seek Blessing" onclick="searchAnswer()" style="margin-top: 20px;">
+        </center>
+    </body>
+</html>
